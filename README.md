@@ -64,9 +64,8 @@ Enlevez le `.example` du nom du fichier `.env.exemple` et renseignez vos clés d
     source ~/.zshrc
    ```
 
-## Exemple
-```bash
-./exec.sh /home/user/Documents/document.pdf
-#ou après avoir créé l'alias
-pdf2latex /home/user/Documents/document.pdf
-```
+## A prendre en compte
+Mistral renvoie un fichier markdown avec pour les images des liens ultra long et gemini vas généralement considérer que les images sont locales
+du coup le mieux c'est de télécharger les images du markdown pour avoir un truc qui fonctionne.
+
+Aussi gemini est parfois nul en latex il faut donc modifier quelques trucs souvent.
