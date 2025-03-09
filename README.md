@@ -2,6 +2,9 @@
 
 Ce projet convertit des fichiers PDF en LaTeX via Markdown, en utilisant une combinaison de Mistral AI (pour l'OCR et l'extraction du Markdown) et Gemini (pour la conversion Markdown vers LaTeX).
 
+## Disclaimer
+J'ai utilisé de l'IA pour la création du projet de toute façon c'est un truc fite fait pour me faciliter la vie donc osef. Faites un truc plus propre si vous voulez.
+
 ## Prérequis
 *   Un compte Mistral AI avec une clé API
 *   Une clé API Google Gemini
